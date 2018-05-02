@@ -1,0 +1,14 @@
+---
+# Installation des services Web
+- name: Installation Zimbra
+  hosts: webservers
+  user: user_login_ssh
+  sudo: yes
+  become_method: sudo
+
+  roles:
+    - install-git
+    - install-ngnix
+    - install-vim
+
+...

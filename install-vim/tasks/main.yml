@@ -1,0 +1,10 @@
+---
+# le role installation de vim
+
+- name: install vim
+  apt:
+    name: vim
+    state: present
+
+
+...

@@ -1,0 +1,8 @@
+---
+# le role installation de git
+
+- name: install git
+  apt:
+    name: git
+    state: present
+...

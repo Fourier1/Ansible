@@ -1,0 +1,8 @@
+---
+# le role installation de ngnix
+
+- name: install nginx
+  apt:
+    name: nginx
+    state: present
+...
